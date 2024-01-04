@@ -1,21 +1,13 @@
-.header-link{
-    text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.header-info{
-    text-decoration: none;
-}
-.mail{
-    text-decoration: none;
-}
-.telephone{
-    text-decoration: none;
-}
-.info-header{
-    list-style: none;
-}
-.mail-header{
-    list-style: none;
-}
-.main-telephone{
-    list-style: none;
+
+/* ------------------------------------------------------------header-------------------------------------------------------------------- */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 15px;
+    /* outline: 2px solid red; */
 }
