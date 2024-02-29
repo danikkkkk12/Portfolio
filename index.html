@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,8 +22,8 @@
             <a href="index.html" class="header-logo"><span class="header-span">Web</span>Studio</a>
             <nav class="nav-bar flex">
                 <ul class="header-list">
-                    <li class="navigation-item"><a href="#" class="active">Студія</a></li>
-                    <li class="navigation-item"><a class="nav-link" href="#">Портфоліо</a></li>
+                    <li class="navigation-item"><a href="#" class="nav-link">Студія</a></li>
+                    <li class="navigation-item"><a class="active" href="#">Портфоліо</a></li>
                     <li class="navigation-item"><a href="#" class="nav-link">Контакти</a></li>
                 </ul>
                 <ul class="header-info flex">
@@ -34,66 +39,94 @@
     <main>
         <div class="container">
             <nav class="nav_button">
-                <button class="btn_active"><p class="paragraph_btn">Усі</p></button>
-                <button class="btn_1"><p class="paragraph-btn">Веб-сайти</p></button>
-                <button class="btn_2"><p class="paragraph-btn">Додатки</p></button>
-                <button class="btn_3"><p class="paragraph-btn">Дизайн</p></button>
-                <button class="btn_4"><p class="paragraph-btn">Маркейтинг</p></button>
+                <button class="btn_active btn_section_1">
+                    <p class="paragraph-btn">Усі</p>
+                </button>
+                <button class="btn_section_1">
+                    <p class="paragraph-btn">Веб-сайти</p>
+                </button>
+                <button class="btn_section_1">
+                    <p class="paragraph-btn">Додатки</p>
+                </button>
+                <button class="btn_section_1">
+                    <p class="paragraph-btn">Дизайн</p>
+                </button>
+                <button class="btn_section_1">
+                    <p class="paragraph-btn">Маркейтинг</p>
+                </button>
             </nav>
-            <section>
-                <ul>
-                    <li>
-                        <img src="photos/photo1.jpg" alt="">
-                        <h3>Технокряк</h3>
-                        <p>Веб-сайт</p>
+            <section class="section_1">
+                <ul class="section_1_list">
+                    <li class="section_1_item">
+                        <img src="photos/photo1.jpg" alt="laptop">
+                        <div class="wrapper_item">
+                            <h3 class="section_1_h3">Технокряк</h3>
+                            <p class="section_1_pragraph">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="photos/photo2.jpg" alt="">
-                        <h3>Постер New Orlean vs Golden Star</h3>
-                        <p>Дизайн</p>
+                    <li class="section_1_item">
+                        <img src="photos/photo2.jpg" alt="basketball">
+                        <div class="wrapper_item">
+                            <h3 class="section_1_h3">Постер New Orlean vs Golden Star</h3>
+                            <p class="section_1_pragraph">Дизайн</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="photos/photo3.jpg" alt="">
-                        <h3>Ресторан Seafood</h3>
-                        <p>Додаток</p>
+                    <li class="section_1_item">
+                        <img src="photos/photo3.jpg" alt="logo_restaurant">
+                        <div class="wrapper_item">
+                            <h3 class="section_1_h3">Ресторан Seafood</h3>
+                            <p class="section_1_pragraph">Додаток</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="photos/photo4.jpg" alt="">
-                        <h3>Проєкт Prime</h3>
-                        <p>Маркетинг</p>
+                    <li class="section_1_item">
+                        <img src="photos/photo4.jpg" alt="headphone">
+                        <div class="wrapper_item">
+                            <h3 class="section_1_h3">Проєкт Prime</h3>
+                            <p class="section_1_pragraph">Маркетинг</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="photos/photo5.jpg" alt="">
-                        <h3>Проєкт Boxes</h3>
-                        <p>Додаток</p>
+                    <li class="section_1_item">
+                        <img src="photos/photo5.jpg" alt="boxes">
+                        <div class="wrapper_item">
+                            <h3 class="section_1_h3">Проєкт Boxes</h3>
+                            <p class="section_1_pragraph">Додаток</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="photos/photo6.jpg" alt="">
-                        <h3>Inspiration has no Borders</h3>
-                        <p>Веб-сайт</p>
+                    <li class="section_1_item">
+                        <img src="photos/photo6.jpg" alt="monitor">
+                        <div class="wrapper_item">
+                            <h3 class="section_1_h3">Inspiration has no Borders</h3>
+                            <p class="section_1_pragraph">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="photos/photo7.jpg" alt="">
-                        <h3>Видання Limited Edition</h3>
-                        <p>Дизайн</p>
+                    <li class="section_1_item">
+                        <img src="photos/photo7.jpg" alt="book">
+                        <div class="wrapper_item">
+                            <h3 class="section_1_h3">Видання Limited Edition</h3>
+                            <p class="section_1_pragraph">Дизайн</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="photos/photo8.jpg" alt="">
-                        <h3>Проєкт LAB</h3>
-                        <p>Маркетинг</p>
+                    <li class="section_1_item">
+                        <img src="photos/photo8.jpg" alt="LAB">
+                        <div class="wrapper_item">
+                            <h3 class="section_1_h3">Проєкт LAB</h3>
+                            <p class="section_1_pragraph">Маркетинг</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="photos/photo9.jpg" alt="">
-                        <h3>Growing Business</h3>
-                        <p>Додаток</p>
+                    <li class="section_1_item">
+                        <img src="photos/photo9.jpg" alt="Business">
+                        <div class="wrapper_item">
+                            <h3 class="section_1_h3">Growing Business</h3>
+                            <p class="section_1_pragraph">Додаток</p>
+                        </div>
                     </li>
                 </ul>
             </section>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <a href="Index.html"><span>Web</span>Studio</a>
+            <a href="Index.html" class="header-logo_footer"><span class="header-span">Web</span>Studio</a>
             <address>
                 <br>м. Київ, пр-т Лесі Українки, 26
             </address>
